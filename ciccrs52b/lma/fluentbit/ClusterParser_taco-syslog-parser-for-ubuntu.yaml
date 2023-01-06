@@ -14,4 +14,4 @@ spec:
     timeFormat: '%b %d %H:%M:%S'
     timeKeep: false
     timeKey: time
-    timeOffset: +0900
+    timeOffset: '+0900'

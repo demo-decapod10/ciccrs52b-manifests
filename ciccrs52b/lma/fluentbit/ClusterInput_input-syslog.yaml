@@ -13,6 +13,6 @@ spec:
     bufferChunkSize: 1M
     bufferMaxSize: 1M
     memBufLimit: 5M
-    parser: taco-syslog-parser-for-ubuntu
+    parser: taco-syslog-parser-for-ubuntu-kst
     path: /var/log/syslog
     tag: "syslog.*"

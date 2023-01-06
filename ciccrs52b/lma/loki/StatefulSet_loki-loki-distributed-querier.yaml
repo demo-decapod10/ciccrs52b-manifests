@@ -113,4 +113,3 @@ spec:
             name: loki-loki-distributed-runtime
         - name: data
           emptyDir: {}
-

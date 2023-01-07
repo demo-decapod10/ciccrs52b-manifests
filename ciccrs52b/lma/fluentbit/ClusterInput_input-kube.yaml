@@ -16,4 +16,3 @@ spec:
     parser: docker
     path: /var/log/containers/*.log
     tag: "kube.*"
-    multilineParser: docker, cri

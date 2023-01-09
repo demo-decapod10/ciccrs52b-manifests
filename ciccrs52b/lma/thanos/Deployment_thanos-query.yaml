@@ -61,6 +61,7 @@ spec:
             - --grpc-address=0.0.0.0:10901
             - --http-address=0.0.0.0:10902
             - --query.replica-label=replica
+            - --store=dnssrv+_grpc._tcp.thanos-storegateway.lma.svc.siim-dev
             - --store=prometheus-operated.lma.svc.cluster.local:10901
             - --store=acf22618328124481a7ccb68a0bd4bdb-2030420788.ap-northeast-2.elb.amazonaws.com:10901
           ports:

@@ -41,7 +41,7 @@ data:
     [Output]
       Name    loki
       Match    event.*
-      host    loki
+      host    loki-loki-distributed-gateway
       port    3100
       Labels job=event, $cluster, $metadata['name'], $metadata['namespace'], $type, $reason
       auto_kubernetes_labels on

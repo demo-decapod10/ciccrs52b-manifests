@@ -42,7 +42,7 @@ data:
       Name    loki
       Match    event.*
       host    loki-loki-distributed-gateway
-      port    3100
+      port    80
       Labels job=event, $cluster, $metadata['name'], $metadata['namespace'], $type, $reason
       auto_kubernetes_labels on
   parsers.conf: |

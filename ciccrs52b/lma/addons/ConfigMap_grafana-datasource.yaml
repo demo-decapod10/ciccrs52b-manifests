@@ -18,5 +18,5 @@ data:
       isDefault: true
     - name: Loki
       type: loki
-      url: http://loki-loki-distributed-gateway.lma
+      url: http://loki-loki-distributed-gateway:80
       access: proxy
